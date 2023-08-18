@@ -2,7 +2,11 @@ FROM node
 
 WORKDIR /usr/src/app
 
-COPY main.js .
+# Copy the main file, frontend.js, .env, and other dependencies
+COPY main.js ./
+COPY frontend.js ./
+COPY .env ./
+COPY /public/styles.css /public/styles.css
 
 RUN ["npm", "install", "express", "pg", "dotenv"]
 
