@@ -12,4 +12,7 @@ RUN ["npm", "install", "express", "pg", "dotenv"]
 
 EXPOSE 3000
 
-CMD [ "NODE_TLS_REJECT_UNAUTHORIZED=0" "main.js" ]
+# Set environment variable
+ENV NODE_TLS_REJECT_UNAUTHORIZED=0
+
+CMD ["main.js" ]
