@@ -9,7 +9,7 @@ Tanto para o projeto principal quanto para usar esta aplicação de forma indepe
 
 1. Clone este repositório:
    ```
-   git clone [URL_DO_REPOSITORIO]
+   git clone https://github.com/Guarda-Sol/nodejs.git
    ```
 
 2. Crie um arquivo chamado `.env` na raiz do projeto.
